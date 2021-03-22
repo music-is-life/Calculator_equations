@@ -42,7 +42,7 @@ def Ln (x:float):
         y_2 = 0
         while True:
             y_2 = y_0 + 2 * (x - exponent(y_0))/(x + exponent(y_0))
-            if absolut_value(y_0 - y_2) <= 0.000000001:
+            if absolut_value(y_0 - y_2) <= 0.0000001:
                 y_0_r = float('%0.6f' % y_0)
                 return y_0_r
             y_0 = y_2
