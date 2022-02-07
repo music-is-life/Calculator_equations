@@ -1,3 +1,4 @@
+### Creating accurate calculator without default libraries
 #first function is fuctorial function:
 def fuctorial (num:int):
     factorial_sum = num
